@@ -1,6 +1,6 @@
 def my_hash_creator(key, value)
-  my_hash_creator[:key] = key
-  my_hash_creator["value"] = value
+  my_hash_creator(key)
+  my_hash_creator(value)
 end
 
 def read_from_hash(hash, key)
