@@ -10,8 +10,15 @@ def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
   hash[key]
   
-  if 
-  
   # if the provided key is not present in the hash, add it and assign it to the value of 1
+  
+  if hash[key]
+    puts hash[key] += 1 
+  else 
+    puts hash[key] = key
+    key = 1 
+  end 
+  hash 
+  
   # if the provided key is present, increment its value by 1
 end
