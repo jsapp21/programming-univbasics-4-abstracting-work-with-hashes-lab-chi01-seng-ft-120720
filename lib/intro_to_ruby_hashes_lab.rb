@@ -12,7 +12,7 @@ def update_counting_hash(hash, key)
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   
   if hash[key]
-    puts hash[key] += 1 
+     hash[key] += 1 
   else 
     puts hash[key] = key
     key = 1 
